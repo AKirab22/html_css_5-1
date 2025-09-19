@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    nav ul {
+      display: none;            /* hide links by default */
+      flex-direction: column;   /* vertical layout */
+      background: orangered;    /* menu box color */
+      position: absolute;
+      top: 70px;                /* below header */
+      right: 20px;
+      padding: 10px;
+      border-radius: 8px;
+    }
+  
+    nav ul.show {
+      display: flex;            /* show links when toggled */
+    }
+  
+    .menu-toggle {
+      display: block;           /* show hamburger icon */
+      color: white;
+      cursor: pointer;          /* makes it clickable */
+    }
+  }
+  
